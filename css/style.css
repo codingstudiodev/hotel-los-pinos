@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0d2946;
-    --primary-text: #ffff;
+    --primary: #D23A3A;
+    --secondary: #003049;
     --light: #F1F8FF;
-    --dark: #922b2b;
+    --dark: #0F172B;
 }
 
 .fw-medium {
@@ -204,13 +204,13 @@
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: var(--secondary);
 }
 
 .service-item .service-icon {
     margin: 0 auto 30px auto;
-    width: 65px;
-    height: 65px;
+    width: 95px;
+    height: 95px;
     transition: .5s;
 }
 
@@ -221,7 +221,7 @@
 }
 
 .service-item:hover i,
-.service-item:hover h5,
+.service-item:hover h4,
 .service-item:hover p {
     color: #FFFFFF !important;
 }
